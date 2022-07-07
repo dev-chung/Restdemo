@@ -10,7 +10,7 @@
 
 <body>
     <h1>Edit</h1>
-    <form action="/comment/<%= comment.id%>/edit">
+    <form method="post" action="/comment/<%= comment.id%>/edit?_method=PATCH">
         <textarea name="comment" id="" cols="30" rows="10"><%= comment.comment%></textarea>
         <button>Save</button>
     </form>
