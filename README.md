@@ -1,2 +1,2 @@
 # Restdemo
-CRUD
+CRUD 학습
